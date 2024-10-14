@@ -1,0 +1,178 @@
+cout<<n-j+1<<" ";
+          
+Enter a number : 4
+4321
+4321
+4321
+4321
+
+
+
+while (j<=i)
+        {
+           cout<<"* ";
+           j=j+1;
+        }
+
+Enter a number : 4
+* 
+* *
+* * *
+* * * *
+
+
+
+
+
+ int value = i;
+        while (j<=i)
+        {
+            
+           cout<<value;
+           value=value+1;
+           j=j+1;
+        }
+
+Enter a number : 4
+1
+23
+345
+4567
+
+
+
+
+int value = i;
+        while (j<=i)
+        {
+            
+           cout<<value;
+           value=value-1;
+           j=j+1;
+        }
+Enter a number : 4
+1
+21
+321
+4321
+
+(i-j-1)
+
+
+
+ char i='A';
+    while (i<=n)
+    {
+        char j='A';
+        while (j<=n)
+        {            
+           cout<<i;       
+           j=j+1;
+        }
+        cout<<endl;
+        i=i+1;
+    }
+ char ch=('A'+i-1);
+Enter a number : E
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+
+
+
+
+
+
+
+cout<<j;  
+ char ch=('A'+j-1); 
+upar vala same
+Enter a number : E
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+ABCDE
+
+
+
+
+char ch=('A'+j+i-2);
+Enter a number : 4
+ABCD
+BCDE
+CDEF
+DEFG
+
+
+
+
+char start = 'A'+n-i;
+        while (j<=i)
+        {     
+          
+           cout<<start;   
+           start=start+1;
+        }
+Enter a number : 4
+D
+CD
+BCD
+ABCD
+
+
+
+
+
+
+
+
+
+
+ while (i<=n)
+    {
+       int  space = n-i;
+        while (space)
+        {
+            cout<<" ";
+            space=space-1;
+        }
+        int j=1;
+        while (j<=i)
+        {     
+           cout<<"*";  
+           j=j+1;
+        }
+        cout<<endl;
+        i=i+1;
+    }
+
+ Enter a number : 5
+    *
+   **
+  ***
+ ****
+*****
+
+
+
+ while (i<=n)
+    {
+      
+        int j=n-i;
+        while (j>=1)
+        {     
+           cout<<"*";  
+           j=j-1;
+        }
+        cout<<endl;
+        i=i+1;
+    }
+Enter a number : 6
+*****
+**** 
+***  
+**   
+*    
